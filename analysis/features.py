@@ -43,8 +43,18 @@ def load_cases():
 def find_label(series_file, labels):
     """Suranda serijos label pagal failo pavadinimą."""
 
-    if series_file in labels:
-        return labels[series_file]
+    # Paverčiame kelią į tokį pat formatą kaip cases.csv
+    relative_path = series_file.relative_to(BASE_DIR).as_posix()
+
+    if relative_path in labels:
+        return labels[relative_path]
+
+    # Atsarginis variantas: ieškome tik pagal failo pavadinimą
+    for case_file, label in labels.items():
+        case_name = Path(str(case_file).replace("\\", "/")).name
+
+        if case_name == series_file.name:
+            return label
 
     return None
 
@@ -135,7 +145,7 @@ def days_from_peak_to_return(series, baseline):
     values = np.asarray(series, dtype=float)
 
     if len(values) == 0 or baseline <= 0:
-        return np.nan
+        return 0
 
     peak_index = int(np.argmax(values))
     threshold = baseline * 1.5
@@ -145,12 +155,10 @@ def days_from_peak_to_return(series, baseline):
         if values[i] <= threshold:
             return i - peak_index
 
-    return np.nan
+    return 0
 
 
-# ---------------------------------------------------------
 # Vienos serijos požymiai
-# ---------------------------------------------------------
 
 def calculate_features(series_file, label):
     """Apskaičiuoja visus požymius vienai serijai."""
@@ -173,9 +181,7 @@ def calculate_features(series_file, label):
 
     views = df["views"].astype(float).to_numpy()
 
-    # -----------------------------------------------------
     # Triukšmo mažinimas
-    # -----------------------------------------------------
 
     smoothed = (
         pd.Series(views)
@@ -207,58 +213,34 @@ def calculate_features(series_file, label):
         peak_ratio = np.nan
         days_above_2x = 0
 
-    # -----------------------------------------------------
     # 1. Bazinis lygis
-    # -----------------------------------------------------
-
     baseline_feature = baseline
 
-    # -----------------------------------------------------
     # 2. Galutinis lygis
-    # -----------------------------------------------------
-
     final_level_feature = final_level
 
-    # -----------------------------------------------------
     # 3. Lygių santykis
-    # -----------------------------------------------------
-
     level_ratio_feature = level_ratio
 
-    # -----------------------------------------------------
     # 4. Didžiausias pikas / bazinis lygis
-    # -----------------------------------------------------
-
     peak_ratio_feature = peak_ratio
 
-    # -----------------------------------------------------
     # 5. Dienų virš 2x bazinio lygio
-    # -----------------------------------------------------
-
     days_above_2x_feature = days_above_2x
 
-    # -----------------------------------------------------
     # 6. Dienos nuo piko iki grįžimo į 1.5x bazinį lygį
-    # -----------------------------------------------------
-
     return_days_feature = days_from_peak_to_return(
         smoothed,
         baseline
     )
 
-    # -----------------------------------------------------
     # 7. Autokoreliacija ties 365 dienų vėlavimu
-    # -----------------------------------------------------
-
     autocorrelation_365_feature = calculate_autocorrelation(
         smoothed,
         365
     )
 
-    # -----------------------------------------------------
     # 8. Variacijos koeficientas
-    # -----------------------------------------------------
-
     mean = np.mean(smoothed)
     std = np.std(smoothed)
 
@@ -267,24 +249,16 @@ def calculate_features(series_file, label):
     else:
         coefficient_variation = np.nan
 
-    # -----------------------------------------------------
     # 9. Logaritmuotos serijos nuolydis
-    # -----------------------------------------------------
-
     log_slope_feature = calculate_log_slope(smoothed)
 
-    # -----------------------------------------------------
     # 10. Atskirų pikų skaičius
-    # -----------------------------------------------------
-
     peak_count_feature = count_peaks(
         smoothed,
         baseline
     )
 
-    # -----------------------------------------------------
     # Rezultatas
-    # -----------------------------------------------------
 
     return {
         "series_file": str(series_file.relative_to(BASE_DIR)),
@@ -303,10 +277,7 @@ def calculate_features(series_file, label):
     }
 
 
-# ---------------------------------------------------------
 # Pagrindinė programa
-# ---------------------------------------------------------
-
 def main():
 
     print("Nuskaitomas cases.csv...")
