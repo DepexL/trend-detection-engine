@@ -100,8 +100,6 @@ def calculate_autocorrelation(series, lag):
 
 def classify(stats):
     """
-    Taisyklėmis paremtas klasifikatorius. Tvarka svarbi:
-
     1. Pirmiausia tikrinam sezoniškumą (metinę autokoreliaciją) - nes
        sezoniniai įvykiai (Kalėdos, Helovinas) irgi turi didelius pikus,
        ir jei tikrintume peak_ratio anksčiau, jie patektų į spike/breakout.
@@ -126,8 +124,6 @@ def classify(stats):
 
 
 def classify_series(series_file):
-    """Paima serijos CSV kelią, grąžina vieną iš keturių etikečių."""
-
     smoothed = load_series(series_file)
     stats = calculate_stats(smoothed)
 
@@ -135,7 +131,6 @@ def classify_series(series_file):
 
 
 if __name__ == "__main__":
-    # Greitas patikrinimas ant pirmos rastos serijos.
     series_files = sorted(SERIES_DIR.glob("*.csv"))
 
     if not series_files:
