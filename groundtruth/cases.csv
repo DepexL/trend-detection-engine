@@ -1,65 +1,71 @@
-article,series_file,period_start,period_end,label,why
-Grand Theft Auto VI,Grand_Theft_Auto_VI.csv,2021-07-01,2026-06-30,breakout,"Views had a sharp peak around 2023-12-05, then declined but remained substantially above the previous baseline. A few more sharp peaks occurred later, such as around 2025-05-06 and 2025-11-07, but the overall level remained well above the previous baseline."
-ChatGPT,ChatGPT.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially from 2022-12-05 and continued rising for about six months, reaching the highest peak around 2023-04-25. They later declined, with a few large spikes occurring, such as around 2025-06-04, but remained relatively stable at a much higher level than the previous baseline."
-TikTok,TikTok.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks in 2022-09-10, 2023-03-24, 2024-03-14, and 2025-01-19, but they quickly returned close to the previous baseline."
-Christmas,Christmas.csv,2021-07-01,2026-06-30,seasonal,"Views show a recurring yearly pattern, with similar peaks occurring around the same period each year 11-25."
-Nvidia,Nvidia.csv,2021-07-01,2026-06-30,breakout,"Views had some sharp peaks but would later return to normal throughout 2021 and 2023. However, after a sharp peak on 2024-02-22, the baseline tripled after the decline and remained at this higher level, with even a larger peak occurring afterward."
-Formula One,Formula_One.csv,2021-07-01,2026-06-30,seasonal,"Views show a recurring yearly pattern, with similar peaks occurring around the same period each year. From 11-23 to 03-08, views are consistently lower each year, while after 03-08 they begin to increase in a similar pattern."
-Music,Music.csv,2021-07-01,2026-06-30,spike,"Views had many sharp peaks from 2021 until 2023-01-29, but the baseline remained similar. After 2023-01-29, the large peaks stopped occurring, while the baseline remained about the same."
-Summer,Summer.csv,2021-07-01,2026-06-30,seasonal,"Views had an unusually sharp peak in December 2021, but afterward they showed a recurring yearly pattern, with spikes consistently occurring from around 05-18 to 06-21 each year."
-Solar eclipse,Solar_eclipse.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks around 2022-10-25, 2024-04-08 and more with smaller ones, but after each peak, they returned to approximately the same baseline."
-Summer Olympics,Summer_Olympics.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks around 2021-08-01 and 2024-08-04 but then quickly returned close to the previous baseline."
-Derivative,Derivative.csv,2021-07-01,2026-06-30,stable,"Views remained relatively flat throughout the five-year period, without a sustained increase or major recurring spikes."
-Trombone,Trombone.csv,2021-07-01,2026-06-30,stable,"Views stayed consistently around the same baseline throughout the five-year period. Occasional increases occurred, but they were small, short-lived, and did not represent sharp spikes or long-term changes. "
-Logarithm,Logarithm.csv,2021-07-01,2026-06-30,stable,"Views remained stable over the five-year period. There was one spike, but it was not very pronounced and did not significantly affect the overall baseline."
-Trigonometry,Trigonometry.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable throughout the five-year period. On 2024-05-27, interest dropped slightly, but it still remained relatively close to the previous baseline."
-Backpack,Backpack.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable throughout the five-year period. There were some higher points, but they did not represent a significant increase compared with the overall baseline."
-Banana,Banana.csv,2021-07-01,2026-06-30,spike,"Views spiked to three times the baseline in 2023-09-24"
-Halloween,Halloween.csv,2021-07-01,2026-06-30,seasonal,"Views showed a recurring yearly increase around 10-31."
-Cooking,Cooking.csv,2021-07-01,2026-06-30,spike,"Views had a sharp peak in 2022-10-06"
-Python,Python.csv,2021-07-01,2026-06-30,spike,"Views spiked sharply on 2023-03-13 and later returned to the normal baseline."
-Google,Google.csv,2021-07-01,2026-06-30,spike,"Views had a couple of spikes, including one very large spike on 2025-08-26 and then returned to their baseline."
-PlayStation,PlayStation.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest occurring around 2021-09-23, 2023-11-24, 2024-12-03, and 2025-02-08. A breakout almost occurred, as the baseline doubled for about a year, but eventually returned to the previous level."
-Elon Musk,Elon_Musk.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest occurring around 2022-04-26, 2022-10-28, 2025-01-21. Baseline stayed about the same after peaks."
-Pizza,Pizza.csv,2021-07-01,2026-06-30,spike,"Views had two large spikes, occurring on 2021-12-06 and 2024-04-19. The baseline remained about the same throughout the period."
-Vilnius,Vilnius.csv,2021-07-01,2026-06-30,spike,"Views had three very large peaks, occurring on 2023-03-03, 2023-07-11, and 2025-04-25. The baseline remained about the same throughout the period."
-Tsunami,Tsunami.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest and most obvious occurring on 2025-07-30. The baseline remained about the same throughout the period."
-Literature,Literature.csv,2021-07-01,2026-06-30,spike,"Views had a few large spikes, with the biggest occurring on 2021-09-15 and 2023-08-30. The baseline remained unchanged before and after those spikes."
-Easter,Easter.csv,2021-07-01,2026-06-30,seasonal,"Views showed a recurring yearly pattern, with peaks occurring around 04-17 each year."
-Raspberry Pi,Raspberry_Pi.csv,2021-07-01,2026-06-30,spike,"Views spiked on 2023-09-28. They also kept declining each year."
-MrBeast,MrBeast.csv,2021-07-01,2026-06-30,spike,"Views spiked sharply on 2025-11-19. Baseline views remained around the same."
-Discord,Discord.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially from 2022-05-13, with a few large spikes occurring afterward, and remained relatively stable at a much higher level than the previous baseline."
-IShowSpeed,IShowSpeed.csv,2021-07-01,2026-06-30,breakout,"Views shot up on 2022-11-29 and continued rising above the original baseline. Several large spikes occurred afterward, with the biggest on 2024-07-20."
-Kai Cenat,Kai_Cenat.csv,2021-07-01,2026-06-30,breakout,"Views shot up on 2022-11-14 and continued rising above the original baseline. Several large spikes occurred afterward, with the biggest on 2023-08-05."
-Virtual reality,Virtual_reality.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable. There were a few close calls that could be considered peaks, but views never rose more than three times the baseline and began to decline slightly toward the end."
-Electric vehicle,Electric_vehicle.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially around 2025-11-24 and remained at a higher baseline afterward."
-Ludwig,Ludwig.csv,2021-07-01,2026-06-30,breakout,"Views spiked around 2024-09-24 and remained at a higher baseline afterward."
-Helldivers 2,Helldivers_2.csv,2021-07-01,2026-06-30,breakout,"Views spiked sharply on 2024-02-19, and after the spike, they settled at a higher baseline than before, indicating a sustained increase in interest."
-Andrew Tate,Andrew_Tate.csv,2021-07-01,2026-06-30,breakout,"Views gradually increased until 2021-12-27, then the growth accelerated, with a sharp spike occurring on 2022-12-30. After the spike, the baseline remained higher than it was previously."
-Gemini,Gemini.csv,2021-07-01,2026-06-30,breakout,"Views started rising after 2025-09-07, followed by several spikes, with the biggest occurring on 2026-02-22. After the spikes, the baseline remained much higher than before."
-Remote work,Remote_work.csv,2021-07-01,2026-06-30,breakout,"Views increased significantly in 2021-09-10 and then started experiencing spikes, with the highest occurring on 2022-08-23. Afterward, the baseline remained higher than the original level."
-League of Legends,League_of_Legends.csv,2021-07-01,2026-06-30,seasonal,"Views increased once each year, with peaks occurring around the same period from October to January."
-Wordle,Wordle.csv,2021-07-01,2026-06-30,breakout,"Views spiked after 2022-02-01, and after declining, they remained above the previous baseline. On 2023-11-24, views increased even further and remained significantly higher than the previous baseline."
-Sneako,Sneako.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2025-06-26 and remained at a higher level than the original baseline."
-Cybertruck,Cybertruck.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2023-01-31 and remained at a higher level than the original baseline."
-Counter-Strike 2,Counter-Strike_2.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2023-09-26 and remained at a higher level than the original baseline."
-Valentine's Day,Valentine's_Day.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 02-14 each year."
-Thanksgiving,Thanksgiving.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 11-23 each year."
-Black Friday,Black_Friday.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 11-26 each year."
-Easter Bunny,Easter_Bunny.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 04-17 each year."
-Knife,Knife.csv,2021-07-01,2026-06-30,stable,"Views were somewhat chaotic, going up and down, but never reached three times the baseline. At one point, views showed a slight breakout, but they later declined below the baseline, so the overall pattern remained stable."
-Santa Claus,Santa_Claus.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 12-25 each year."
-Christmas tree,Christmas_tree.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 12-25 each year."
-April Fools' Day,April_Fools'_Day.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 04-01 each year."
-Pumpkin,Pumpkin.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 10-31 each year."
-Skiing,Skiing.csv,2021-07-01,2026-06-30,seasonal,"Views showed a consistent yearly pattern, with peaks occurring every winter and a bit after."
-Carnival,Carnival.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 03-01 each year."
-Toolbox,Toolbox.csv,2021-07-01,2026-06-30,stable,"Views stayed close to the same baseline throughout the period. There were a few small increases, but none were more than three times the baseline or sustained."
-International Civil Aviation Organization,International_Civil_Aviation_Organization.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with two notable peaks 2022-10-01 and 2024-02-24 that quickly returned to the usual baseline."
-International Maritime Organization,International_Maritime_Organization.csv,2021-07-01,2026-06-30,stable,"Views moved up and down throughout the period, but the fluctuations remained relatively small and did not result in a lasting change in the baseline."
-International Bureau of Weights and Measures,International_Bureau_of_Weights_and_Measures.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with one minor peak that quickly returned to the usual baseline."
-International Union of Pure and Applied Chemistry,International_Union_of_Pure_and_Applied_Chemistry.csv,2021-07-01,2026-06-30,stable,"Views stayed close to the same baseline throughout the period. There were a few small increases, but none were large or sustained."
-Civil registration,Civil_registration.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with three minor peaks that quickly returned to the usual baseline."
-Death certificate,Death_certificate.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with one minor peak that quickly returned to the usual baseline."
-Identity document,Identity_document.csv,2021-07-01,2026-06-30,stable,"Views moved up and down throughout the period, but the fluctuations remained relatively small and did not result in a lasting change in the baseline."
-Customs,Customs.csv,2021-07-01,2026-06-30,stable,"Views fluctuated slightly over the five-year period but remained close to the same overall baseline, with no sustained increase or decrease."
+article,series_file,period_start,period_end,label,why,series_start
+Grand Theft Auto VI,Grand_Theft_Auto_VI.csv,2021-07-01,2026-06-30,breakout,"Views had a sharp peak around 2023-12-05, then declined but remained substantially above the previous baseline. A few more sharp peaks occurred later, such as around 2025-05-06 and 2025-11-07, but the overall level remained well above the previous baseline.",2021-07-01
+ChatGPT,ChatGPT.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially from 2022-12-05 and continued rising for about six months, reaching the highest peak around 2023-04-25. They later declined, with a few large spikes occurring, such as around 2025-06-04, but remained relatively stable at a much higher level than the previous baseline.",2022-12-05
+TikTok,TikTok.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks in 2022-09-10, 2023-03-24, 2024-03-14, and 2025-01-19, but they quickly returned close to the previous baseline.",2021-07-01
+Christmas,Christmas.csv,2021-07-01,2026-06-30,seasonal,"Views show a recurring yearly pattern, with similar peaks occurring around the same period each year 11-25.",2021-07-01
+Nvidia,Nvidia.csv,2021-07-01,2026-06-30,breakout,"Views had some sharp peaks but would later return to normal throughout 2021 and 2023. However, after a sharp peak on 2024-02-22, the baseline tripled after the decline and remained at this higher level, with even a larger peak occurring afterward.",2021-07-01
+Formula One,Formula_One.csv,2021-07-01,2026-06-30,seasonal,"Views show a recurring yearly pattern, with similar peaks occurring around the same period each year. From 11-23 to 03-08, views are consistently lower each year, while after 03-08 they begin to increase in a similar pattern.",2021-07-01
+Music,Music.csv,2021-07-01,2026-06-30,spike,"Views had many sharp peaks from 2021 until 2023-01-29, but the baseline remained similar. After 2023-01-29, the large peaks stopped occurring, while the baseline remained about the same.",2021-07-01
+Summer,Summer.csv,2021-07-01,2026-06-30,seasonal,"Views had an unusually sharp peak in December 2021, but afterward they showed a recurring yearly pattern, with spikes consistently occurring from around 05-18 to 06-21 each year.",2021-07-01
+Solar eclipse,Solar_eclipse.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks around 2022-10-25, 2024-04-08 and more with smaller ones, but after each peak, they returned to approximately the same baseline.",2021-07-01
+Summer Olympics,Summer_Olympics.csv,2021-07-01,2026-06-30,spike,"Views had sharp peaks around 2021-08-01 and 2024-08-04 but then quickly returned close to the previous baseline.",2021-07-01
+Derivative,Derivative.csv,2021-07-01,2026-06-30,stable,"Views remained relatively flat throughout the five-year period, without a sustained increase or major recurring spikes.",2021-07-01
+Trombone,Trombone.csv,2021-07-01,2026-06-30,stable,"Views stayed consistently around the same baseline throughout the five-year period. Occasional increases occurred, but they were small, short-lived, and did not represent sharp spikes or long-term changes. ",2021-07-01
+Logarithm,Logarithm.csv,2021-07-01,2026-06-30,stable,"Views remained stable over the five-year period. There was one spike, but it was not very pronounced and did not significantly affect the overall baseline.",2021-07-01
+Trigonometry,Trigonometry.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable throughout the five-year period. On 2024-05-27, interest dropped slightly, but it still remained relatively close to the previous baseline.",2021-07-01
+Backpack,Backpack.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable throughout the five-year period. There were some higher points, but they did not represent a significant increase compared with the overall baseline.",2021-07-01
+Banana,Banana.csv,2021-07-01,2026-06-30,spike,"Views spiked to three times the baseline in 2023-09-24",2021-07-01
+Halloween,Halloween.csv,2021-07-01,2026-06-30,seasonal,"Views showed a recurring yearly increase around 10-31.",2021-07-01
+Cooking,Cooking.csv,2021-07-01,2026-06-30,spike,"Views had a sharp peak in 2022-10-06",2021-07-01
+Python,Python.csv,2021-07-01,2026-06-30,spike,"Views spiked sharply on 2023-03-13 and later returned to the normal baseline.",2021-07-01
+Google,Google.csv,2021-07-01,2026-06-30,spike,"Views had a couple of spikes, including one very large spike on 2025-08-26 and then returned to their baseline.",2021-07-01
+PlayStation,PlayStation.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest occurring around 2021-09-23, 2023-11-24, 2024-12-03, and 2025-02-08. A breakout almost occurred, as the baseline doubled for about a year, but eventually returned to the previous level.",2021-07-01
+Elon Musk,Elon_Musk.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest occurring around 2022-04-26, 2022-10-28, 2025-01-21. Baseline stayed about the same after peaks.",2021-07-01
+Pizza,Pizza.csv,2021-07-01,2026-06-30,spike,"Views had two large spikes, occurring on 2021-12-06 and 2024-04-19. The baseline remained about the same throughout the period.",2021-07-01
+Vilnius,Vilnius.csv,2021-07-01,2026-06-30,spike,"Views had three very large peaks, occurring on 2023-03-03, 2023-07-11, and 2025-04-25. The baseline remained about the same throughout the period.",2021-07-01
+Tsunami,Tsunami.csv,2021-07-01,2026-06-30,spike,"Views had several peaks, with the largest and most obvious occurring on 2025-07-30. The baseline remained about the same throughout the period.",2021-07-01
+Literature,Literature.csv,2021-07-01,2026-06-30,spike,"Views had a few large spikes, with the biggest occurring on 2021-09-15 and 2023-08-30. The baseline remained unchanged before and after those spikes.",2021-07-01
+Easter,Easter.csv,2021-07-01,2026-06-30,seasonal,"Views showed a recurring yearly pattern, with peaks occurring around 04-17 each year.",2021-07-01
+Raspberry Pi,Raspberry_Pi.csv,2021-07-01,2026-06-30,spike,"Views spiked on 2023-09-28. They also kept declining each year.",2021-07-01
+MrBeast,MrBeast.csv,2021-07-01,2026-06-30,spike,"Views spiked sharply on 2025-11-19. Baseline views remained around the same.",2021-07-01
+Discord,Discord.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially from 2022-05-13, with a few large spikes occurring afterward, and remained relatively stable at a much higher level than the previous baseline.",2021-07-01
+IShowSpeed,IShowSpeed.csv,2021-07-01,2026-06-30,breakout,"Views shot up on 2022-11-29 and continued rising above the original baseline. Several large spikes occurred afterward, with the biggest on 2024-07-20.",2022-03-11
+Kai Cenat,Kai_Cenat.csv,2021-07-01,2026-06-30,breakout,"Views shot up on 2022-11-14 and continued rising above the original baseline. Several large spikes occurred afterward, with the biggest on 2023-08-05.",2022-05-31
+Virtual reality,Virtual_reality.csv,2021-07-01,2026-06-30,stable,"Views remained relatively stable. There were a few close calls that could be considered peaks, but views never rose more than three times the baseline and began to decline slightly toward the end.",2021-07-01
+Electric vehicle,Electric_vehicle.csv,2021-07-01,2026-06-30,breakout,"Views increased substantially around 2025-11-24 and remained at a higher baseline afterward.",2021-07-01
+Ludwig,Ludwig.csv,2021-07-01,2026-06-30,breakout,"Views spiked around 2024-09-24 and remained at a higher baseline afterward.",2021-07-01
+Helldivers 2,Helldivers_2.csv,2021-07-01,2026-06-30,breakout,"Views spiked sharply on 2024-02-19, and after the spike, they settled at a higher baseline than before, indicating a sustained increase in interest.",2023-05-26
+Andrew Tate,Andrew_Tate.csv,2021-07-01,2026-06-30,breakout,"Views gradually increased until 2021-12-27, then the growth accelerated, with a sharp spike occurring on 2022-12-30. After the spike, the baseline remained higher than it was previously.",2021-07-01
+Gemini,Gemini.csv,2021-07-01,2026-06-30,breakout,"Views started rising after 2025-09-07, followed by several spikes, with the biggest occurring on 2026-02-22. After the spikes, the baseline remained much higher than before.",2021-07-01
+Remote work,Remote_work.csv,2021-07-01,2026-06-30,breakout,"Views increased significantly in 2021-09-10 and then started experiencing spikes, with the highest occurring on 2022-08-23. Afterward, the baseline remained higher than the original level.",2021-07-01
+League of Legends,League_of_Legends.csv,2021-07-01,2026-06-30,seasonal,"Views increased once each year, with peaks occurring around the same period from October to January.",2021-07-01
+Wordle,Wordle.csv,2021-07-01,2026-06-30,breakout,"Views spiked after 2022-02-01, and after declining, they remained above the previous baseline. On 2023-11-24, views increased even further and remained significantly higher than the previous baseline.",2021-07-01
+Sneako,Sneako.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2025-06-26 and remained at a higher level than the original baseline.",2024-04-08
+Cybertruck,Cybertruck.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2023-01-31 and remained at a higher level than the original baseline.",2021-07-01
+Counter-Strike 2,Counter-Strike_2.csv,2021-07-01,2026-06-30,breakout,"Views began growing after 2023-09-26 and remained at a higher level than the original baseline.",2023-03-22
+Valentine's Day,Valentine's_Day.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 02-14 each year.",2021-07-01
+Thanksgiving,Thanksgiving.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 11-23 each year.",2021-07-01
+Black Friday,Black_Friday.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 11-26 each year.",2021-07-01
+Easter Bunny,Easter_Bunny.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 04-17 each year.",2021-07-01
+Knife,Knife.csv,2021-07-01,2026-06-30,stable,"Views were somewhat chaotic, going up and down, but never reached three times the baseline. At one point, views showed a slight breakout, but they later declined below the baseline, so the overall pattern remained stable.",2021-07-01
+Santa Claus,Santa_Claus.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 12-25 each year.",2021-07-01
+Christmas tree,Christmas_tree.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 12-25 each year.",2021-07-01
+April Fools' Day,April_Fools'_Day.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 04-01 each year.",2021-07-01
+Pumpkin,Pumpkin.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 10-31 each year.",2021-07-01
+Skiing,Skiing.csv,2021-07-01,2026-06-30,seasonal,"Views showed a consistent yearly pattern, with peaks occurring every winter and a bit after.",2021-07-01
+Carnival,Carnival.csv,2021-07-01,2026-06-30,seasonal,"Views followed the same yearly pattern, with peaks occurring around 03-01 each year.",2021-07-01
+Toolbox,Toolbox.csv,2021-07-01,2026-06-30,stable,"Views stayed close to the same baseline throughout the period. There were a few small increases, but none were more than three times the baseline or sustained.",2021-07-01
+International Civil Aviation Organization,International_Civil_Aviation_Organization.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with two notable peaks 2022-10-01 and 2024-02-24 that quickly returned to the usual baseline.",2021-07-01
+International Maritime Organization,International_Maritime_Organization.csv,2021-07-01,2026-06-30,stable,"Views moved up and down throughout the period, but the fluctuations remained relatively small and did not result in a lasting change in the baseline.",2021-07-01
+International Bureau of Weights and Measures,International_Bureau_of_Weights_and_Measures.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with one minor peak that quickly returned to the usual baseline.",2021-07-01
+International Union of Pure and Applied Chemistry,International_Union_of_Pure_and_Applied_Chemistry.csv,2021-07-01,2026-06-30,stable,"Views stayed close to the same baseline throughout the period. There were a few small increases, but none were large or sustained.",2021-07-01
+Civil registration,Civil_registration.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with three minor peaks that quickly returned to the usual baseline.",2021-07-01
+Death certificate,Death_certificate.csv,2021-07-01,2026-06-30,stable,"Views remained mostly stable, with one minor peak that quickly returned to the usual baseline.",2021-07-01
+Identity document,Identity_document.csv,2021-07-01,2026-06-30,stable,"Views moved up and down throughout the period, but the fluctuations remained relatively small and did not result in a lasting change in the baseline.",2021-07-01
+Customs,Customs.csv,2021-07-01,2026-06-30,stable,"Views fluctuated slightly over the five-year period but remained close to the same overall baseline, with no sustained increase or decrease.",2021-07-01
+Jannik Sinner,Jannik_Sinner.csv,2021-07-01,2026-06-30,breakout,"Views spiked a few time and after those spike baseline was higher when at the start",2021-07-01
+Sam Altman,Sam_Altman.csv,2021-07-01,2026-06-30,breakout,"Views after spiking were a lot higher when the default baseline.",2021-07-01
+Ozempic,Ozempic.csv,2021-07-01,2026-06-30,breakout,"Views spiked really high once and after everything they were higher then the baseline.",2021-07-01
+Javier Milei,Javier_Milei.csv,2021-07-01,2026-06-30,breakout,"Views kept growing then spiked and after returned to a higher baseline then the original.",2021-07-01
+Nayib Bukele,Nayib_Bukele.csv,2021-07-01,2026-06-30,breakout,"Views baseline went up compatred to the starting baseline",2021-07-01
+Giorgia Meloni,Giorgia_Meloni.csv,2021-07-01,2026-06-30,breakout,"Views spiked and stayed higher then the orginal baseline afterwards.",2021-07-01
