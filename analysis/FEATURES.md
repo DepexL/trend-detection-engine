@@ -27,20 +27,20 @@ Wikipedia dienos peržiūrų duomenys gali būti triukšmingi ir turėti pavieni
 
 ---
 
-# Medianų pagal klasę lentelė
+#### Medianų pagal klasę lentelė
 
-| Požymis                  |      Breakout |      Spike |   Seasonal |     Stable |
-| `baseline_90d`           |        171.00 |    2965.25 |    1231.25 |     530.75 |
-| `final_level_90d`        |       2837.25 |    1696.25 |    1361.00 |     398.25 |
-| `level_ratio`            |    **8.0789** |     0.7614 |     0.8930 |     0.6984 |
-| `peak_ratio`             |   **52.9003** |     3.5513 |    32.4484 |     2.0346 |
-| `days_above_2x_baseline` |    **1131.5** |       77.5 |      415.0 |    **1.5** |
-| `days_peak_to_1.5x`      |       **0.0** |       21.5 |       52.0 |       13.0 |
-| `autocorrelation_365d`   |        0.0585 |     0.0750 | **0.6081** |     0.3050 |
-| `coefficient_variation`  |        0.7399 |     0.3916 | **1.5740** | **0.2263** |
-| `log_slope`              |  **0.000781** |    -0.0002 |    -0.0000 |    -0.0002 |
-| `peak_count`             |      **72.5** |       18.0 |       45.5 |    **6.0** |
-
+| Požymis | Breakout | Spike | Seasonal | Stable |
+|---|---:|---:|---:|---:|
+| `baseline_90d` | 171.00 | 2965.25 | 1231.25 | 530.75 |
+| `final_level_90d` | 2837.25 | 1696.25 | 1361.00 | 398.25 |
+| `level_ratio` | **8.0789** | 0.7614 | 0.8930 | 0.6984 |
+| `peak_ratio` | **52.9003** | 3.5513 | 32.4484 | 2.0346 |
+| `days_above_2x_baseline` | **1131.5** | 77.5 | 415.0 | **1.5** |
+| `days_peak_to_1.5x` | **0.0** | 21.5 | 52.0 | 13.0 |
+| `autocorrelation_365d` | 0.0585 | 0.0750 | **0.6081** | 0.3050 |
+| `coefficient_variation` | 0.7399 | 0.3916 | **1.5740** | **0.2263** |
+| `log_slope` | **0.000781** | -0.0002 | -0.0000 | -0.0002 |
+| `peak_count` | **72.5** | 18.0 | 45.5 | **6.0** |
 ---
 
 # Požymių analizė
