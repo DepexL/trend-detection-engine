@@ -10,14 +10,17 @@
 Eilutės rodo tikrą klasę, o stulpeliai – klasifikatoriaus prognozę.
 
 | Actual \ Predicted | breakout | spike | seasonal | stable |
-| breakout           | 15       | 0     | 0        | 1      |
-| spike              | 0        | 11    | 2        | 3      |
-| seasonal           | 1        | 5     | 9        | 1      |
-| stable             | 0        | 0     | 2        | 14     |
+| ------------------ | -------: | ----: | -------: | -----: |
+| breakout           |       15 |     0 |        0 |      1 |
+| spike              |        0 |    11 |        2 |      3 |
+| seasonal           |        1 |     5 |        9 |      1 |
+| stable             |        0 |     0 |        2 |     14 |
+
 
 ## Precision ir Recall pagal klasę
 
 | Class    | Precision | Recall |
+| -------- | --------: | -----: | 
 | breakout | 0.938     | 0.938  |
 | spike    | 0.688     | 0.688  | 
 | seasonal | 0.692     | 0.562  | 
@@ -28,6 +31,7 @@ Eilutės rodo tikrą klasę, o stulpeliai – klasifikatoriaus prognozę.
 Iš viso klaidingai suklasifikuota **15** atvejų.
 
 | Tema              | klasė    | Algoritmo klasė | Kodėl taisyklė suklydo
+| --------          | -------: | -----:          |  -----: | 
 | ChatGPT           | breakout | stable          | Tikras augimas prasidėjo nuo 2022 m., todėl pirmųjų 90 dienų baseline nėra tikras pradinis 2021 m. lygis. Kadangi serija prasideda vėliau, peak_ratio ir level_ratio taisyklės gali neteisingai parodyti stabilumą.
 | Formula One       | seasonal | spike           | Tema turi metinį pasikartojantį sezoninį modelį, tačiau 365 dienų autokoreliacija nepasiekė pasirinktos 0.5 ribos. Todėl dideli sezoniniai pikai buvo interpretuoti kaip paprasti spike.
 | Summer            | seasonal | stable          | Sezoninis pakilimas vyksta tik tam tikru metų laiku ir nėra pakankamai panašus visomis likusiomis dienomis. Dėl to 365 dienų autokoreliacija buvo per maža.
